@@ -1,0 +1,172 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title .container-fluid {
+  text-align:left;
+  padding: 3% 15% 7%;
+}
+
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.white-section{
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.colored-section{
+  background-color: #FF4C68;
+  color: #FFFFFF;
+  text-align:center;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Ubuntu";
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title*/
+
+.title-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20rem;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 4% 5% 0;
+}
+
+
+/* Features */
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+#features .container-fluid{
+  padding:13% 12%;
+}
+.features-block{
+  padding: 2%;
+}
+
+.features-icon {
+  color: #EF8172;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #FF4C68;
+}
+
+.features-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.features-desc {
+  color: #8F8F8F;
+  width: 70%;
+  margin: auto;
+}
+
+/* Testimonials  */
+#testimonials .container-fluid{
+  background-color: #EF8172;
+  padding:0 5%;
+}
+
+.carousel-inner {
+  padding: 5% 15% 10%;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+/* Press */
+#press .container-fluid {
+  background-color: #EF8172;
+  padding:5% 5%;
+}
+
+.press-img {
+  margin: 2rem;
+  width: 15%;
+}
+
+/* Pricing */
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+.cta-desc {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+/* Footer */
+
+.footer-brand-icon {
+  margin: 1rem;
+}
+
+.copyright {
+  margin-top: 2rem;
+  color: #8F8F8F;
+}
+
+/* Media Queries */
+@media (max-width:1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .testimonial-img{
+    width:20%;
+  }
+}
